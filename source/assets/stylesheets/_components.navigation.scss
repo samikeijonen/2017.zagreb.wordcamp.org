@@ -23,10 +23,10 @@
   margin-top: rem(2);
   width: 100%;
 
-  // font-size: ms(0);
   font-size: 0; /* Hides the default "Primary menu" label */
   line-height: 24px;
 
+  font-family: $font-brand-primary;
   font-weight: $bold;
   text-align: center;
   letter-spacing: .05em;
@@ -114,19 +114,19 @@
   position: relative;
   background-color: $color-brand-tertiary;
 
-  &:before {
+  // &:before {
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
 
-    height: rem(2);
-    background-color: $color-link;
+  //   height: rem(2);
+  //   background-color: $color-link;
 
-    content: "";
+  //   content: "";
 
-  }
+  // }
 
   @include breakpoint(to-small) {
 
@@ -232,7 +232,7 @@
 .current-menu-item > a {
 
   color: $color-text-strong;
-  background-color: shade($color-brand-tertiary, 20%);
+  background-color: shade($color-brand-tertiary, 10%);
 
 }
 
