@@ -80,6 +80,7 @@ td {
   padding: $unit-xs $unit-s;
   border-top: 1px solid rgba(0,0,0,.1);
 
+  font-family: $font-headline;
   @include font-size(16);
   line-height: 1.5;
 
