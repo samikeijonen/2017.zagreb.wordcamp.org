@@ -232,7 +232,7 @@
 .current-menu-item > a {
 
   color: $color-text-strong;
-  background-color: $color-link;
+  background-color: shade($color-brand-secondary, 10%);
 
 }
 
