@@ -15,9 +15,8 @@
 
   position: relative;
 
-  margin-bottom: $unit-default;
-  padding-bottom: $unit-default;
-  // border-bottom: 1px solid $color-border-weak;
+  margin-bottom: $unit-xl;
+  padding-bottom: $unit-xl;
 
   &:after,
   &:before {
