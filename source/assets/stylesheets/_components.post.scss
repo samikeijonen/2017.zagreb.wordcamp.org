@@ -13,9 +13,40 @@
 
   @include clearfix();
 
+  position: relative;
+
   margin-bottom: $unit-default;
   padding-bottom: $unit-default;
-  border-bottom: 6px double $color-border-weak;
+  // border-bottom: 1px solid $color-border-weak;
+
+  &:after,
+  &:before {
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    margin-left: 0 - 40px;
+
+    display: block;
+    height: 1px;
+    background-color: $color-border-normal;
+
+    content: ""
+
+  }
+
+  &:before {
+
+    transform: skewY(10deg)
+
+  }
+
+  &:after {
+
+    transform: skewY(-10deg)
+
+  }
 
 }
 
