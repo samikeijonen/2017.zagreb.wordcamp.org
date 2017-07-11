@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     justify-content: center;
 
-    text-align: center;
+    // text-align: center;
 
   }
 
@@ -74,20 +74,20 @@
   margin-bottom: 0;
   padding: $unit-xs;
 
-  img {
+  // img {
 
-    display: block;
-    margin: 0 auto;
-    max-height: rem(140);
+  //   display: block;
+  //   margin: 0 auto;
+  //   max-height: rem(140);
 
-  }
+  // }
 
-  h3,
-  .wcorg-sponsor-description p {
+  // h3,
+  // .wcorg-sponsor-description p {
 
-    display: none;
+  //   display: none;
 
-  }
+  // }
 
   a {
 
