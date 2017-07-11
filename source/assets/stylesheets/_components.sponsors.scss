@@ -81,6 +81,7 @@
 
     display: block;
     margin: 0 auto;
+    max-height: auto;
     // max-height: rem(140);
 
   }
@@ -88,6 +89,14 @@
   h3 {
 
     text-align: center;
+
+  }
+
+  .wcorg-sponsor-description {
+
+    font-size: ms(-1);
+    line-height: ms(2);
+    color: $color-text-weak;
 
   }
 
