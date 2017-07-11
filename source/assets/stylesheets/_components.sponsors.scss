@@ -81,7 +81,7 @@
 
     display: block;
     margin: 0 auto;
-    max-height: auto;
+    max-height: none;
     // max-height: rem(140);
 
   }
@@ -94,9 +94,15 @@
 
   .wcorg-sponsor-description {
 
-    font-size: ms(-1);
+    font-size: ms(0, 16px);
     line-height: ms(2);
     color: $color-text-weak;
+
+  }
+
+  p {
+
+    margin-top: $unit-xs;
 
   }
 
