@@ -1,6 +1,6 @@
-# WordCamp [Name] [Year]
+# WordCamp Zagreb 2017
 
-Style guide for the WordCamp [Name] [Year] theme
+Style guide for the WordCamp Zagreb 2017 theme
 
 ## Style guide
 
@@ -23,8 +23,8 @@ WordCamp header. Read more about [colors](section-1.html#kssref-1-colors) and [f
 
 <header id="masthead" class="site-header" role="banner">
   <div class="site-branding">
-    <p class="site-title"><a href="#" rel="home">WordCamp Name</a></p>
-    <p class="site-description">City, Country – Month, Date, Year.</p>
+    <p class="site-title"><a href="#" rel="home">WordCamp Zagreb 2017</a></p>
+    <p class="site-description">1-3 September &middot; Croatia &middot; #wphr</p>
   </div><!-- .site-branding -->
   <!-- #site-navigation -->
 </header><!-- #masthead -->
