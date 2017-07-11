@@ -74,13 +74,22 @@
   margin-bottom: 0;
   padding: $unit-xs;
 
-  // img {
+  max-width: rem(800);
+  margin: 0 auto;
 
-  //   display: block;
-  //   margin: 0 auto;
-  //   max-height: rem(140);
+  img {
 
-  // }
+    display: block;
+    margin: 0 auto;
+    // max-height: rem(140);
+
+  }
+
+  h3 {
+
+    text-align: center;
+
+  }
 
   // h3,
   // .wcorg-sponsor-description p {
@@ -115,11 +124,11 @@
 
     padding: $unit-s;
 
-    img {
+    // img {
 
-      max-height: rem(200);
+    //   max-height: rem(200);
 
-    }
+    // }
 
   }
 
