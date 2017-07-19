@@ -92,6 +92,7 @@ article.comment-body {
 .comment-metadata {
 
   // display: inline-block;
+  font-family: $font-headline;
   font-size: ms(-2);
   line-height: ms(2);
 
@@ -121,6 +122,7 @@ article.comment-body {
 
   margin-top: $unit-xs;
 
+  font-family: $font-headline;
   font-size: ms(-1);
   line-height: ms(2);
 

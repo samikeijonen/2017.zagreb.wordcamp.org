@@ -180,9 +180,10 @@
 
   font-family: $font-headline;
   font-size: ms(0);
-  font-weight: $bold;
+  font-weight: $regular;
   text-align: left;
-  // text-transform: uppercase;
+  text-transform: uppercase;
+  letter-spacing: -.025em;
 
   @include breakpoint(small) {
 
@@ -374,7 +375,7 @@
 
     a {
 
-      padding: $unit-s $unit-s;
+      padding: rem(12) $unit-s;
 
       color: $color-text-invert;
 
