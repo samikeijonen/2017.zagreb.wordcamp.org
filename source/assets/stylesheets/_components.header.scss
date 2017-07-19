@@ -37,7 +37,7 @@
     right: 0;
 
     // background-color: rgba($site-hero-background, $site-hero-overlay);
-    background-image: radial-gradient(circle at center, $site-hero-background 30%, rgba($site-hero-background, .5) 100%);
+    background-image: radial-gradient(circle at center, $site-hero-background 0%, rgba($site-hero-background, $site-hero-overlay) 100%);
 
     @include transition-fast();
     content: "";
@@ -46,8 +46,8 @@
 
   &:hover:before {
 
-    // background-color: rgba($site-hero-background, .8);
-    background-color: rgba(0,0,0,1);
+    background-color: rgba($site-hero-background, .8);
+    // background-image: radial-gradient(circle at center, $site-hero-background 30%, rgba($site-hero-background, .8) 100%);
 
   }
 
