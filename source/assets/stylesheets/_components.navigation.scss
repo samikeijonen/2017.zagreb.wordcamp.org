@@ -26,11 +26,12 @@
   font-size: 0; /* Hides the default "Primary menu" label */
   line-height: 24px;
 
-  font-family: $font-brand-primary;
+  font-family: $font-headline;
   font-weight: $bold;
   text-align: center;
   letter-spacing: .05em;
   color: $color-link;
+  text-transform: uppercase;
 
   border-radius: 0;
   // background-color: rgba($color-brand-tertiary, .9);
@@ -308,7 +309,7 @@
 
     &.current-menu-item > a:after {
 
-      border-top-color: $color-text-strong-invert;
+      border-top-color: $color-text-strong;
 
     }
 
@@ -378,6 +379,13 @@
       padding: rem(12) $unit-s;
 
       color: $color-text-invert;
+
+    }
+
+    .current-menu-item > a {
+
+      color: $color-text-strong;
+      background-color: shade($color-brand-tertiary, 10%);
 
     }
 
