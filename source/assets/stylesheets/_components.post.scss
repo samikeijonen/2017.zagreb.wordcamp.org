@@ -82,6 +82,10 @@
 
   margin-bottom: $unit-s;
 
+  font-family: $font-headline;
+  text-transform: uppercase;
+  color: $color-text-weak;
+
   a {
 
     color: $color-link-alt;
@@ -114,6 +118,7 @@
 
   margin-bottom: $unit-default;
 
+  font-family: $font-headline;
   @include font-size(16);
   line-height: em(24,16);
   color: $color-text-weak;

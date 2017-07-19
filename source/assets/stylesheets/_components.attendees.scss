@@ -119,6 +119,7 @@
     margin-right: 0;
     margin-bottom: rem(2);
 
+    font-family: $font-headline;
     color: $color-text-strong;
     font-weight: $bold;
     font-size: ms(0, 18px);
@@ -160,7 +161,7 @@
 
       opacity: .5;
 
-      content: "";
+      // content: "";
 
     }
 
