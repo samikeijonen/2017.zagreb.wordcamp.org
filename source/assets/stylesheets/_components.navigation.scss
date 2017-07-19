@@ -307,6 +307,8 @@
 
     }
 
+    &.current-menu-item:hover > a:after,
+    &.current-menu-item.focus > a:after,
     &.current-menu-item > a:after {
 
       border-top-color: $color-text-strong;

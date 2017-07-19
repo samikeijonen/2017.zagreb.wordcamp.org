@@ -36,9 +36,18 @@
     bottom: 0;
     right: 0;
 
-    background-color: rgba($site-hero-background, $site-hero-overlay);
+    // background-color: rgba($site-hero-background, $site-hero-overlay);
+    background-image: radial-gradient(circle at center, $site-hero-background 30%, rgba($site-hero-background, .5) 100%);
 
+    @include transition-fast();
     content: "";
+
+  }
+
+  &:hover:before {
+
+    // background-color: rgba($site-hero-background, .8);
+    background-color: rgba(0,0,0,1);
 
   }
 
