@@ -20,8 +20,10 @@ blockquote {
 
 blockquote {
 
-  padding: 2em;
-  background-color: $color-grey-10;
+  padding: 0;
+  padding-left: $unit-m;
+  border-left: rem(3) solid $color-brand-primary;
+  // background-color: $color-grey-10;
 
   p {
 
