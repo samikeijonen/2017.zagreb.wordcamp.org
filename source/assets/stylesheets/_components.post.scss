@@ -55,6 +55,17 @@
 
   @include clearfix();
 
+  .more-link {
+
+    display: block;
+    margin-top: $unit-s;
+
+    font-family: $headline;
+    text-transform: uppercase;
+    font-weight: $bold;
+
+  }
+
 }
 
 .entry-title {
