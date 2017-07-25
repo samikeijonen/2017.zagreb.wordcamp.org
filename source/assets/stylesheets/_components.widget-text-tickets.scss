@@ -1,0 +1,99 @@
+/* =Tickets widget
+===================================================== */
+
+// Widget: Tickets
+//
+// Custom tickets widget
+//
+// Markup: widget-text-tickets.html
+//
+// Style guide: 6.widget.text-tickets
+
+#text-3 {
+
+  &:before {}
+
+}
+
+.ticket-island {}
+
+.ticket-island__description {
+
+  margin-bottom: $unit-m;
+
+  text-align: center;
+
+  p {
+
+    margin-bottom: 0;
+
+    font-size: ms(0);
+    line-height: ms(2);
+
+  }
+
+}
+
+.ticket-island__action {
+
+  position: relative;
+  margin-top: $unit-m;
+  // border-top: 1px solid $color-border-normal;
+  padding-top: $unit-m;
+
+  font-family: $font-headline;
+  text-transform: uppercase;
+
+  &:after,
+  &:before {
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80px;
+    margin-left: 0 - 40px;
+
+    display: block;
+    height: 1px;
+    background-color: $color-border-normal;
+
+    content: ""
+
+  }
+
+  &:before {
+
+    transform: skewY(10deg)
+
+  }
+
+  &:after {
+
+    transform: skewY(-10deg)
+
+  }
+
+  em {
+
+    font-style: normal;
+
+  }
+
+  strong {
+
+
+  }
+
+  .button {
+
+    margin: $unit-xs;
+
+  }
+
+  @include breakpoint(medium) {
+
+    margin-top: 0;
+
+  }
+
+}
