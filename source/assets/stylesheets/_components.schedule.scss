@@ -157,7 +157,6 @@
       margin-bottom: $unit-s;
       display: block;
       border: rem(4) solid $color-brand-secondary;
-      // border: 1px solid $color-border-normal;
 
     }
 
@@ -175,7 +174,7 @@
 
       color: $color-text-strong;
       font-weight: $bold;
-      background-color: $color-brand-quaternary!important;
+      background-color: $color-brand-tertiary!important;
 
 
     }
@@ -218,7 +217,7 @@
       padding-bottom: $unit-s;
 
       color: $color-text-strong-invert;
-      background-color: $color-brand-tertiary;
+      background-color: $color-brand-primary;
 
     }
 
