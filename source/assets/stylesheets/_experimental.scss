@@ -13,6 +13,16 @@
   background-color: $color-grey-10;
   padding: $unit-m;
 
+  // label.checkbox,
+  // label.radio,
+  label {
+
+    font-family: $font-body;
+    font-size: ms(0, 16px);
+    line-height: ms(0, 24px);
+
+  }
+
   textarea,
   input[type=email],
   input[type=text] {
