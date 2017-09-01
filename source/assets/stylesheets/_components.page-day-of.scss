@@ -5,6 +5,17 @@
 .page-template-page-day-of {
 
   /*
+   * Remove top padding
+   */
+
+
+  #content {
+
+    padding-top: 0;
+
+  }
+
+  /*
    * Hiding content on this page
    */
 
@@ -72,6 +83,11 @@
 
     @include container-padding(2);
 
+    &:before {
+
+
+    }
+
     .widget-title {
 
       font-size: ms(3);
@@ -113,11 +129,12 @@
 
   &:before {
 
-    background-image: $image-pattern-01;
-    background-color: $color-brand-quaternary!important;
-    background-size: 120px;
-    background-attachment: fixed;
-    background-position: 50% 0;
+    background-color: $color-brand-tertiary;
+    // background-image: $image-pattern-01;
+    // background-color: $color-brand-quaternary!important;
+    // background-size: 120px;
+    // background-attachment: fixed;
+    // background-position: 50% 0;
 
   }
 
