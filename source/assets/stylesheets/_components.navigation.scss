@@ -176,8 +176,8 @@
     margin: 0 rem(1);
     display: inline-block;
 
-    @include font-size(16);
-    line-height: em(24,16);
+    @include font-size(14);
+    line-height: em(24,14);
     text-align: center;
 
   }
