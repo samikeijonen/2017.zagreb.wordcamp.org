@@ -5,9 +5,9 @@
 //
 // Write about your typography choices for this WordCamp.
 //
-// **Source Sans Pro** is used as the font for WordCamp logo and for all headlines.
+// **Montserrat** is used as the font for WordCamp logo and for all headlines.
 //
-// **Georgia** is used for body text, buttons, forms etc.
+// **Source Sans Pro** is used for body text, buttons, forms etc.
 //
 // Style guide: 1.typography
 
@@ -16,8 +16,8 @@ $ms-base: 1em;
 $ms-ratio: 1.25;
 
 /* Fonts */
-$font-brand-primary:              $georgia;
-$font-brand-secondary:            'Source Sans Pro', $helvetica;
+$font-brand-primary:              'Source Sans Pro', sans-serif;
+$font-brand-secondary:            'Montserrat', sans-serif;
 
 /* Font use case */
 $font-body:                       $font-brand-primary;
