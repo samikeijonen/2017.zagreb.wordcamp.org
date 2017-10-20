@@ -167,7 +167,7 @@
 
   font-family: $font-headline;
   font-size: ms(0, 16px);
-  font-weight: $regular;
+  font-weight: $semibold;
   text-align: left;
   text-transform: uppercase;
 
@@ -230,7 +230,7 @@
 
 .menu-item-has-children {
 
-  background-color: rgba($color-brand-tertiary, .6);
+  background-color: rgba($color-brand-tertiary, 0.7);
 
   .dropdown-toggle {
 
