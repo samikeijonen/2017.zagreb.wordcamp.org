@@ -176,8 +176,8 @@
     margin: 0 rem(1);
     display: inline-block;
 
-    @include font-size(18);
-    line-height: em(24,18);
+    @include font-size(16);
+    line-height: em(24,16);
     text-align: center;
 
   }
@@ -312,7 +312,6 @@
 
     text-transform: none;
     font-weight: $regular;
-    font-family: $font-body;
 
   }
 
