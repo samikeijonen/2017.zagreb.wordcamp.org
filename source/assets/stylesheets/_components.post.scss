@@ -18,8 +18,7 @@
   margin-bottom: $unit-xl;
   padding-bottom: $unit-xl;
 
-  &:after,
-  &:before {
+  &:after {
 
     position: absolute;
     bottom: 0;
@@ -28,22 +27,10 @@
     margin-left: 0 - 40px;
 
     display: block;
-    height: 1px;
+    height: 4px;
     background-color: $color-border-normal;
 
     content: ""
-
-  }
-
-  &:before {
-
-    transform: skewY(10deg)
-
-  }
-
-  &:after {
-
-    transform: skewY(-10deg)
 
   }
 
