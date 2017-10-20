@@ -12,9 +12,10 @@
 
 hr {
 
-  margin: $unit-default 0;
+  margin: $unit-default auto;
   padding: 0;
   border: 0;
-  border-top: 1px solid $color-grey-10;
+  border-top: 4px solid $color-grey-10;
+  width: 60px;
 
 }
