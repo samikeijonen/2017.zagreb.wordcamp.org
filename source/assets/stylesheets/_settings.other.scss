@@ -5,7 +5,7 @@
 $z-index-header:                  200;
 $z-index-branding:                290;
 $z-index-navigation:              300;
-$z-index-navigation-submenu:      310;
+$z-index-navigation-submenu:      1210;
 $z-index-main:                    100;
 $z-index-footer:                  100;
 $z-index-modal:                   500;
@@ -50,7 +50,7 @@ $site-logo-path:                url('https://2017.zagreb.wordcamp.org/files/2017
 $site-hero-path-small:          url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-hero-small.jpg'); // Background image
 $site-hero-path-large:          url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-hero-large.jpg'); // Background image
 $site-hero-background:          $color-brand-primary; // Hero color background
-$site-hero-overlay:             .9; // Image overlay color opacity
+$site-hero-overlay:             0.8; // Image overlay color opacity
 
 /* Media queries */
 $extra-small-value:             24em; // 384px

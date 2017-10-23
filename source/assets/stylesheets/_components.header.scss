@@ -45,10 +45,6 @@
   }
 
   &:hover:before {
-
-    background-color: rgba($site-hero-background, .8);
-    // background-image: radial-gradient(circle at center, $site-hero-background 30%, rgba($site-hero-background, .8) 100%);
-
   }
 
   > * {
@@ -56,6 +52,10 @@
     position: relative;
     z-index: $z-index-header;
 
+  }
+
+  .custom-header {
+    z-index: $z-index-main;
   }
 
 }
