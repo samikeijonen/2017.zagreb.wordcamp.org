@@ -25,12 +25,9 @@
 
   line-height: 24px;
 
-  font-family: $font-headline;
-  font-weight: $bold;
   text-align: center;
   letter-spacing: .05em;
   color: $color-link;
-  text-transform: uppercase;
 
   border-radius: 0;
   // background-color: rgba($color-brand-tertiary, .9);
@@ -252,8 +249,6 @@
 
 .menu-item-has-children {
 
-  background-color: rgba($color-brand-tertiary, 0.7);
-
   .dropdown-toggle {
 
     display: none;
@@ -269,7 +264,7 @@
       &:after {
 
         position: relative;
-        top: rem(0.5);
+        top: rem(1.25);
 
         display: inline-block;
         border: rem(6) solid transparent;
