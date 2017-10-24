@@ -39,16 +39,16 @@ $box-shadow-large:              0 rem(1) rem(24) 0 rgba(0,0,0,.2);
 
 /* Logo size */
 $site-logo-width:               320px; // Width of the image/element
-$site-logo-height:              320px; // Height of the image/element
+$site-logo-height:              155px; // Height of the image/element
 $site-logo-proportion:          .65; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
 $site-logo-proportion-mobile:   .5; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
-$site-logo-path:                url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-logo-large.png'); // Logo image
+$site-logo-path:                url('https://2018.jyvaskyla.wordcamp.org/files/2017/10/logo-wcjkl@2x.png'); // Logo image
 // $site-logo-path:                url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-logo-placeholder.png'); // Logo image
 // $site-logo-path:                url('https://2017.europe.wordcamp.org/files/2016/11/logo-wceu17-dark-icon.png'); // Logo image
 
 /* Hero */
-$site-hero-path-small:          url('https://2018.jyvaskyla.wordcamp.org/files/2017/09/bridge-1020643_1920-e1508766912262.jpg'); // Background image
-$site-hero-path-large:          url('https://2018.jyvaskyla.wordcamp.org/files/2017/09/bridge-1020643_1920-e1508766912262.jpg'); // Background image
+$site-hero-path-small:          url('https://2018.jyvaskyla.wordcamp.org/files/2017/10/hero-background.png'); // Background image
+$site-hero-path-large:          url('https://2018.jyvaskyla.wordcamp.org/files/2017/10/hero-background@2x.png'); // Background image
 $site-hero-background:          $color-brand-primary; // Hero color background
 $site-hero-overlay:             0.8; // Image overlay color opacity
 

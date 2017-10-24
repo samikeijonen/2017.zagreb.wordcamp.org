@@ -28,7 +28,7 @@
 
   @include transition-fast();
 
-  &:before {
+  /*&:before {
 
     position: absolute;
     top: 0;
@@ -45,7 +45,7 @@
   }
 
   &:hover:before {
-  }
+  }*/
 
   > * {
 
