@@ -393,8 +393,7 @@
 
     .current-menu-item > a {
 
-      color: $color-text-strong;
-      background-color: shade($color-brand-tertiary, 10%);
+      background-color: rgba($color-brand-primary, .75);
 
     }
 
