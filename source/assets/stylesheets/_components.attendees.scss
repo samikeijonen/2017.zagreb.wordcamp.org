@@ -176,4 +176,12 @@
 
   }
 
+  .tix-wpfi-slack-tunnus-wpfi-slack-handle {
+
+    &:before {
+      content: 'WPFI Slack:';
+    }
+    
+  }
+
 }
